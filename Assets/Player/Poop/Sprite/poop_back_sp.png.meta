@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 5dcf55502a27dbf45b15c4a445ad535d
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 8132043008569644373
+    second: poop_back_sp_0
+  - first:
+      213: 2939681458474402640
+    second: poop_back_sp_1
+  - first:
+      213: -4593994183500101258
+    second: poop_back_sp_2
+  - first:
+      213: -1550675397010682002
+    second: poop_back_sp_3
+  - first:
+      213: 8007768835040532626
+    second: poop_back_sp_4
+  - first:
+      213: -7569275553077691599
+    second: poop_back_sp_5
+  - first:
+      213: -3465812919995155610
+    second: poop_back_sp_6
+  - first:
+      213: -8667888380813888720
+    second: poop_back_sp_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +120,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: poop_back_sp_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 256
+        width: 64
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcb42220c4813ef4fb3debc8a0a41f48
+      internalID: 8132043008569644373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_back_sp_1
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 256
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0dbd4a246b9a6640b8da94cfa56f3bd
+      internalID: 2939681458474402640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_back_sp_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 256
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf5187f80c9cd544188c390de99900d1
+      internalID: -4593994183500101258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_back_sp_3
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 256
+        width: 66
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76dc6b656235465499c423422087ae5c
+      internalID: -1550675397010682002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_back_sp_4
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 256
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db53bc1de820d294ab29a3d80d4470e1
+      internalID: 8007768835040532626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_back_sp_5
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704bf367d4f686f4ea2544f7105a7c82
+      internalID: -7569275553077691599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_back_sp_6
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 56
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e2feac57b08dc447b5c0da649f50eb4
+      internalID: -3465812919995155610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_back_sp_7
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 58
+        width: 64
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aea84816d83a414592189d0394cbf3b
+      internalID: -8667888380813888720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 38caee849da84cf46958ed8287375309
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -6057862397894847712
+    second: poop_jump_sp_0
+  - first:
+      213: -1887180180845883751
+    second: poop_jump_sp_1
+  - first:
+      213: -3745143084853947363
+    second: poop_jump_sp_2
+  - first:
+      213: 6873766881742610252
+    second: poop_jump_sp_3
+  - first:
+      213: -3587611816743586989
+    second: poop_jump_sp_4
+  - first:
+      213: -7505512982887873896
+    second: poop_jump_sp_5
+  - first:
+      213: -3205129074379913248
+    second: poop_jump_sp_6
+  - first:
+      213: 7214484679283812977
+    second: poop_jump_sp_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +120,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: poop_jump_sp_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 220
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 790a4d89aed85a64880968c94299a9e1
+      internalID: -6057862397894847712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_jump_sp_1
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 220
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75cc834ac9da1e4cbe47435f1cdfe0c
+      internalID: -1887180180845883751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_jump_sp_2
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 220
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886682a13678b6c4188b409892159da7
+      internalID: -3745143084853947363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_jump_sp_3
+      rect:
+        serializedVersion: 2
+        x: 632
+        y: 220
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1768a9d7a0a08d14c9be52470c928380
+      internalID: 6873766881742610252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_jump_sp_4
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 220
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e54cec910b9e0654abe27fc93ad53673
+      internalID: -3587611816743586989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_jump_sp_5
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 29
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1447f97f920b1ec4fbe285928acf4f9b
+      internalID: -7505512982887873896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_jump_sp_6
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 28
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11fb3e101f82c274eaf94f64c20d41d6
+      internalID: -3205129074379913248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_jump_sp_7
+      rect:
+        serializedVersion: 2
+        x: 431
+        y: 25
+        width: 130
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2482448ca6f204aa0e769de2073e34
+      internalID: 7214484679283812977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

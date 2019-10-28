@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: d03f8b8caaf4dac4baee10ea43cebecf
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5180367132665350577
+    second: poop_left_sp_0
+  - first:
+      213: -1291594649564473919
+    second: poop_left_sp_1
+  - first:
+      213: -3634485749670043889
+    second: poop_left_sp_2
+  - first:
+      213: 793675891525683324
+    second: poop_left_sp_3
+  - first:
+      213: -3874424441086168225
+    second: poop_left_sp_4
+  - first:
+      213: 5711274932295053811
+    second: poop_left_sp_5
+  - first:
+      213: 9173364364910453635
+    second: poop_left_sp_6
+  - first:
+      213: 8021802361877370397
+    second: poop_left_sp_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +120,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: poop_left_sp_0
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 256
+        width: 84
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef695555fc0c224f9d5bf465b09fdf0
+      internalID: -5180367132665350577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_left_sp_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 256
+        width: 78
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 770a6887a89547746b343eb70d08dfdb
+      internalID: -1291594649564473919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_left_sp_2
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 256
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5a4dc1a872075043856273d4973d740
+      internalID: -3634485749670043889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_left_sp_3
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 256
+        width: 82
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c8b6b7ef86e6a48bb1d670f5877a9f
+      internalID: 793675891525683324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_left_sp_4
+      rect:
+        serializedVersion: 2
+        x: 870
+        y: 256
+        width: 82
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded53b6f3f19866469f805575f38bc82
+      internalID: -3874424441086168225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_left_sp_5
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 56
+        width: 88
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbe53d49b59f9c3489f500e0a4f454c8
+      internalID: 5711274932295053811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_left_sp_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 56
+        width: 80
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d96dbfb1e8a80f468a4fd80ae5ce6f8
+      internalID: 9173364364910453635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_left_sp_7
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 56
+        width: 76
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5fd699359efb4c4bbaa3fdbcaba12bf
+      internalID: 8021802361877370397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

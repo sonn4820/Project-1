@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 77f5b9cd1f98a5b459fd4c7696dd67ee
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 5376756998846992382
+    second: poop_idle_sp_0
+  - first:
+      213: -5143707858345287237
+    second: poop_idle_sp_1
+  - first:
+      213: 284277892155577446
+    second: poop_idle_sp_2
+  - first:
+      213: -5995171983534323108
+    second: poop_idle_sp_3
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +108,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: poop_idle_sp_0
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 56
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f20de18e34fee5d498fa020f5529041e
+      internalID: 5376756998846992382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_idle_sp_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 56
+        width: 68
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 134232e971c0d6a40845d2ae7f6bbb4e
+      internalID: -5143707858345287237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_idle_sp_2
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 56
+        width: 64
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2334160d67db9c647ad6dcca368b80d8
+      internalID: 284277892155577446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: poop_idle_sp_3
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 56
+        width: 66
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ff7aeeaa57bf04fa97462f3b40e72d
+      internalID: -5995171983534323108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

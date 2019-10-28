@@ -63,7 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Script\Player\Camera.cs" />
-    <Compile Include="Assets\Script\Player\Trash\Moving.cs" />
+    <Compile Include="Assets\Script\Player\Moving.cs" />
     <Compile Include="Assets\Script\Title\Button.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/sonng/Documents/QU/GDD 210/Project 1/Project1/Project1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
