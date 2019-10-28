@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 994d69c4794250a439506cad5841b7fc
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3844710793090096958
+    second: trash_front_sp_0
+  - first:
+      213: -58936495446063612
+    second: trash_front_sp_1
+  - first:
+      213: -1218350039734609451
+    second: trash_front_sp_2
+  - first:
+      213: -3546085979600899962
+    second: trash_front_sp_3
+  - first:
+      213: 7142632751710638609
+    second: trash_front_sp_4
+  - first:
+      213: 6474430837220873215
+    second: trash_front_sp_5
+  - first:
+      213: 260955259234018170
+    second: trash_front_sp_6
+  - first:
+      213: 5420720073226612355
+    second: trash_front_sp_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +120,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: trash_front_sp_0
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 236
+        width: 80
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c85d4623032099a4dab5410555b2f83a
+      internalID: -3844710793090096958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_front_sp_1
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 236
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f8038062c6a28b41909329e128d6003
+      internalID: -58936495446063612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_front_sp_2
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 236
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c377c8ac4bc6844aab5be3a8810c09
+      internalID: -1218350039734609451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_front_sp_3
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 236
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8a20c184d92add46aa5101c7bcf102f
+      internalID: -3546085979600899962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_front_sp_4
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 236
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 002d583858676864e9e7774d8e790857
+      internalID: 7142632751710638609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_front_sp_5
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 36
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 048f8b07711f15f4187a81ab0e9057eb
+      internalID: 6474430837220873215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_front_sp_6
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 36
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7583f2c361f287c42abc9bde0eaa438f
+      internalID: 260955259234018170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trash_front_sp_7
+      rect:
+        serializedVersion: 2
+        x: 462
+        y: 36
+        width: 76
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3444881e8b74ea468035367516193b3
+      internalID: 5420720073226612355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
