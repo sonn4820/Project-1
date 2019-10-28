@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 32f5db325f6f2084c848e3e99791d613
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -8198932971525250083
+    second: paper_jump_sp_0
+  - first:
+      213: -8234841590000292450
+    second: paper_jump_sp_1
+  - first:
+      213: 8990620681464693886
+    second: paper_jump_sp_2
+  - first:
+      213: 6546807981260258173
+    second: paper_jump_sp_3
+  - first:
+      213: -7023560119583654103
+    second: paper_jump_sp_4
+  - first:
+      213: 1575587295468727790
+    second: paper_jump_sp_5
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +114,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: paper_jump_sp_0
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 10
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54108a01283071249bebc4e3282aac16
+      internalID: -8198932971525250083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_jump_sp_1
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 10
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b130d73db28934fb379f97f1069df3
+      internalID: -8234841590000292450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_jump_sp_2
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 10
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86a57e9d83fbc664e9d7306bdf5cf083
+      internalID: 8990620681464693886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_jump_sp_3
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 10
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ccf48645b56006449034a1530a9e2e6
+      internalID: 6546807981260258173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_jump_sp_4
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 10
+        width: 150
+        height: 190
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbc218dd857e1f41b7f5940662986aa
+      internalID: -7023560119583654103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

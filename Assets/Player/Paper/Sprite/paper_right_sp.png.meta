@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: 6c56ac0088a999e4ea1662d132c0a3b4
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5063998134989995802
+    second: paper_right_sp_0
+  - first:
+      213: 897179273269054840
+    second: paper_right_sp_1
+  - first:
+      213: 8206974468724671120
+    second: paper_right_sp_2
+  - first:
+      213: -4899482326985575364
+    second: paper_right_sp_3
+  - first:
+      213: 1480842049622009438
+    second: paper_right_sp_4
+  - first:
+      213: -7569440267902999896
+    second: paper_right_sp_5
+  - first:
+      213: -4827040843167740513
+    second: paper_right_sp_6
+  - first:
+      213: -8617228836431738343
+    second: paper_right_sp_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +120,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: paper_right_sp_0
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 232
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a592e102751b55e4d852ce1d24fe1e73
+      internalID: -5063998134989995802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_right_sp_1
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 232
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 129c2379475930c4eb134523a3b29446
+      internalID: 897179273269054840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_right_sp_2
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 232
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3826dbfedfce74794783f36ec09dc1
+      internalID: 8206974468724671120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_right_sp_3
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 232
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78695f39418ced647881a0aae105973a
+      internalID: -4899482326985575364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_right_sp_4
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 232
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe51ea486129c849978e9747daf3e1d
+      internalID: 1480842049622009438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_right_sp_5
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 32
+        width: 78
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 113a56c14f17a8b4694490ea6f4b4c31
+      internalID: -7569440267902999896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_right_sp_6
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 32
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f896b8b4fd958b43958526cb3b68b37
+      internalID: -4827040843167740513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_right_sp_7
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 32
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0820a8650da6094ea9d61b599ee45d4
+      internalID: -8617228836431738343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

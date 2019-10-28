@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: e54598d696ff67c44960a8d3ef119959
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2819407411136259401
+    second: paper_back_sp_0
+  - first:
+      213: -49734651142675970
+    second: paper_back_sp_1
+  - first:
+      213: -2590066633632949966
+    second: paper_back_sp_2
+  - first:
+      213: -6817198619009551560
+    second: paper_back_sp_3
+  - first:
+      213: -7862363694332402393
+    second: paper_back_sp_4
+  - first:
+      213: 2601012261860174879
+    second: paper_back_sp_5
+  - first:
+      213: -1041282830212298348
+    second: paper_back_sp_6
+  - first:
+      213: -7573714069842696597
+    second: paper_back_sp_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +120,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: paper_back_sp_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 232
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0cbaa0578b27854ea0cb8a9037b6fcc
+      internalID: 2819407411136259401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_back_sp_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 232
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8738f2d20375a454cb67a277f52758ab
+      internalID: -49734651142675970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_back_sp_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 232
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f36c5f7dbb82c5147a8a86f4558fa783
+      internalID: -2590066633632949966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_back_sp_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 232
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0aed9f25395e0eb449548bbe594a0b25
+      internalID: -6817198619009551560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_back_sp_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 232
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5504c21a598dc4d8a5f66e802d0515
+      internalID: -7862363694332402393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_back_sp_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80d0a64e9baa3a44e9090c722ff3f6db
+      internalID: 2601012261860174879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_back_sp_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 32
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e4417a027a5c4f4d9c7625633e60eff
+      internalID: -1041282830212298348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_back_sp_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 34
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce1b95ee5cd157142a0d246c66526025
+      internalID: -7573714069842696597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

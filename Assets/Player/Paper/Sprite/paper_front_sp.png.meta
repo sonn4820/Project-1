@@ -1,7 +1,31 @@
 fileFormatVersion: 2
 guid: e2aaf0a449d162941bc4ff026fbde04c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -1986202743178204027
+    second: paper_front_sp_0
+  - first:
+      213: 5721893703028329476
+    second: paper_front_sp_1
+  - first:
+      213: -8216743121402014741
+    second: paper_front_sp_2
+  - first:
+      213: 3430383201170904368
+    second: paper_front_sp_3
+  - first:
+      213: -4323737533585467836
+    second: paper_front_sp_4
+  - first:
+      213: 2426096557343891548
+    second: paper_front_sp_5
+  - first:
+      213: -430798186373461049
+    second: paper_front_sp_6
+  - first:
+      213: 1447657972751130691
+    second: paper_front_sp_7
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +120,175 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: paper_front_sp_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 232
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 236d25c3ee66d6e4c8ba163a54f17d35
+      internalID: -1986202743178204027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_front_sp_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 232
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b8907c17137c924b94b298f199191dc
+      internalID: 5721893703028329476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_front_sp_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 232
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da517aa83f820654b89d5cc1c6c6498b
+      internalID: -8216743121402014741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_front_sp_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 232
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a46a9fc780c14bd47888b21d51293982
+      internalID: 3430383201170904368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_front_sp_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 232
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fc07ab3fddb8a646a9f1f8fc994b73e
+      internalID: -4323737533585467836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_front_sp_5
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 32
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dcafff65d62af5c41abfb4374b11f46a
+      internalID: 2426096557343891548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_front_sp_6
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 32
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b068223a0f6dc114fbb41f77fe038174
+      internalID: -430798186373461049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_front_sp_7
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 34
+        width: 78
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90de5883e43a7504f83a3943dd7e01f1
+      internalID: 1447657972751130691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

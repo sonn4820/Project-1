@@ -1,7 +1,22 @@
 fileFormatVersion: 2
 guid: 1f00c18913867564c838e685c47b0cb9
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -5206171640274800482
+    second: paper_idle_sp_0
+  - first:
+      213: 5527788761859047210
+    second: paper_idle_sp_1
+  - first:
+      213: -7526254567950724390
+    second: paper_idle_sp_2
+  - first:
+      213: 751063175062680630
+    second: paper_idle_sp_3
+  - first:
+      213: -3163791737534592215
+    second: paper_idle_sp_4
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -96,7 +111,112 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: paper_idle_sp_0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 30
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0df8ed4eb15c12b4f89fc548bbce1ace
+      internalID: -5206171640274800482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_idle_sp_1
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 30
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8ae8b76672c570438bed2010ecba10e
+      internalID: 5527788761859047210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_idle_sp_2
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 30
+        width: 78
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f009b1bb0311cc24f9ec6efb3088a73e
+      internalID: -7526254567950724390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_idle_sp_3
+      rect:
+        serializedVersion: 2
+        x: 668
+        y: 30
+        width: 78
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 707b59c528a456649ae0ca623c897dd0
+      internalID: 751063175062680630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: paper_idle_sp_4
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 30
+        width: 78
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53f415ee541d5b74082d0b5fa7fb297e
+      internalID: -3163791737534592215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
