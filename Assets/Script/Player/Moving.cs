@@ -5,7 +5,7 @@ using UnityEngine;
 public class Moving : MonoBehaviour
 {
     public Animator animator; // get animator
-    public float speed = 3f; // set up speed
+    public float speed = 10f; // set up speed
     public float moveHorizontal; // call new float for horizontal movement
     public float moveVertical; // call new float for vertical movement
 
