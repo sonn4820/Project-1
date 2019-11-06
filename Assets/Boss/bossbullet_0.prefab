@@ -11,6 +11,10 @@ GameObject:
   - component: {fileID: 8871496255791504028}
   - component: {fileID: 400148915614851890}
   - component: {fileID: 28253259633915738}
+  - component: {fileID: 9173938213138758655}
+  - component: {fileID: -5674060841324899623}
+  - component: {fileID: 5737626503044361117}
+  - component: {fileID: 5325642698168692320}
   m_Layer: 0
   m_Name: bossbullet_0
   m_TagString: Untagged
@@ -101,3 +105,69 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &9173938213138758655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4689825678297371035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06127f59a5d57e7479fdc69dbab2b177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 20
+  animator: {fileID: 28253259633915738}
+  delay: 0
+  rb: {fileID: -5674060841324899623}
+--- !u!50 &-5674060841324899623
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4689825678297371035}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!58 &5737626503044361117
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4689825678297371035}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.019999998
+--- !u!114 &5325642698168692320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4689825678297371035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c1e1e747c8c66d24fa5dfe9469ab4537, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delay: 0
