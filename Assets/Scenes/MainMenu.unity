@@ -264,8 +264,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 56587077}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.21, y: 1.2, z: 0}
-  m_LocalScale: {x: 3.978, y: 3.978, z: 2.652}
+  m_LocalPosition: {x: -4.84, y: 0.09, z: 0}
+  m_LocalScale: {x: 3.0789719, y: 3.0789719, z: 2.0526478}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
@@ -480,8 +480,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 300381228}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 6.49, y: 1.32, z: 0}
-  m_LocalScale: {x: 3.5655003, y: 3.5655003, z: 2.377}
+  m_LocalPosition: {x: 4.86, y: 0.13, z: 0}
+  m_LocalScale: {x: 2.6259804, y: 2.6259804, z: 1.7506535}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
@@ -512,18 +512,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330401950}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1093975244}
-  m_Father: {fileID: 1795425572}
-  m_RootOrder: 3
+  m_Father: {fileID: 2005473540}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 538, y: -156}
-  m_SizeDelta: {x: 388.1, y: 72.8}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -142, y: 155.2}
+  m_SizeDelta: {x: 160.20001, y: 72.79999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &330401952
 MonoBehaviour:
@@ -732,7 +732,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play as Harold
+  m_Text: Harold
 --- !u!222 &586727149
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -811,7 +811,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play as Tuck the Trash Can
+  m_Text: Tuck the Trash Can
 --- !u!222 &590765319
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -933,7 +933,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Play as Joey Junk
+  m_Text: Joey Junk
 --- !u!222 &1093975246
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1177,7 +1177,7 @@ GameObject:
   - component: {fileID: 1647692987}
   - component: {fileID: 1647692986}
   m_Layer: 5
-  m_Name: Text
+  m_Name: EscapeText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1190,17 +1190,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1647692984}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 1795425572}
-  m_RootOrder: 4
+  m_Father: {fileID: 2005473540}
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 331}
-  m_SizeDelta: {x: 456.3, y: 104.9}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 0, y: -52.449997}
+  m_SizeDelta: {x: 456.3, y: 104.899994}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1647692986
 MonoBehaviour:
@@ -1378,10 +1378,6 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 2005473540}
-  - {fileID: 1889775341}
-  - {fileID: 1990699930}
-  - {fileID: 330401951}
-  - {fileID: 1647692985}
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1416,18 +1412,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889775340}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 30}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 590765317}
-  m_Father: {fileID: 1795425572}
-  m_RootOrder: 1
+  m_Father: {fileID: 2005473540}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -507, y: -156}
-  m_SizeDelta: {x: 388.1, y: 72.8}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 142, y: 155.2}
+  m_SizeDelta: {x: 198.1, y: 72.8}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1889775342
 MonoBehaviour:
@@ -1667,8 +1663,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1928593314}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.32, y: 0.83, z: 0}
-  m_LocalScale: {x: 4.7512083, y: 4.7512083, z: 3.1674721}
+  m_LocalPosition: {x: -0.06, y: 0.07, z: 0}
+  m_LocalScale: {x: 3.2925875, y: 3.2925875, z: 2.1950583}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
@@ -1699,18 +1695,18 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1990699929}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 586727147}
-  m_Father: {fileID: 1795425572}
-  m_RootOrder: 2
+  m_Father: {fileID: 2005473540}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 27, y: -155.99997}
-  m_SizeDelta: {x: 388.1, y: 72.8}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 155.19998}
+  m_SizeDelta: {x: 167.05, y: 72.79999}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1990699931
 MonoBehaviour:
@@ -1834,7 +1830,11 @@ RectTransform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1889775341}
+  - {fileID: 1990699930}
+  - {fileID: 330401951}
+  - {fileID: 1647692985}
   m_Father: {fileID: 1795425572}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
