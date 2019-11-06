@@ -64,6 +64,7 @@
   <ItemGroup>
     <Compile Include="Assets\Background &amp; UI\Change.cs" />
     <Compile Include="Assets\Script\Enemy\Bag\Bag.cs" />
+    <Compile Include="Assets\Script\Enemy\Truck\Truck.cs" />
     <Compile Include="Assets\Script\Player\Camera.cs" />
     <Compile Include="Assets\Script\Player\Moving.cs" />
     <Compile Include="Assets\Script\Player\Trash\AD.cs" />
