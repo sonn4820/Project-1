@@ -20,7 +20,7 @@ public class Hit : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Time.time >= delaytime && (Input.GetKeyDown(KeyCode.J))) // Use J to shoot
+        if (Time.time >= delaytime && (Input.GetKeyDown(KeyCode.K))) // Use J to shoot
         {
             boom(); // activate the shoot function
             delaytime = Time.time + timeBetweenShots; // delay time = timebtwshots
