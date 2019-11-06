@@ -6,7 +6,7 @@ public class Truck : MonoBehaviour
 {
     public GameObject orbPrefab; // var to hold prefab for instantiating orbs
 
-    private float secsBetweenLaunch = 1f; // rate that we generate orbs from the enemy
+    private float secsBetweenLaunch = 0.65f; // rate that we generate orbs from the enemy
     public float health = 10f; // initialize hp = 2
     public float speed = 4f; // set up speed of enemy
     public Animator animator;// get animator
@@ -30,7 +30,7 @@ public class Truck : MonoBehaviour
         InvokeRepeating("LaunchOrb5", 2f, secsBetweenLaunch);  //calls a function every x secs 2f from start of game
         orbPrefab.gameObject.SetActive(false); // set the orb inactive at start
 
-
+        
     }
 
     // Update is called once per frame
@@ -38,10 +38,7 @@ public class Truck : MonoBehaviour
     {
         orbPrefab.gameObject.SetActive(true); // when appear, active to orb
 
-        Vector3 Ypos = transform.position; // create a var to hold current position
-        Ypos.y += speed * Time.deltaTime; // sets the Ypos of our ship to the speed var * sec since last frame
-        transform.position = Ypos;
-
+        
         if (health <= 0f) // hp < 0
         {
             animator.SetFloat("HP", health); //load death animation
@@ -52,8 +49,7 @@ public class Truck : MonoBehaviour
             CancelInvoke("LaunchOrb4"); // cancel the invoke
             CancelInvoke("LaunchOrb5"); // cancel the invoke
         }
-
-
+        
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
@@ -82,13 +78,5 @@ public class Truck : MonoBehaviour
     {
         Instantiate(orbPrefab, firePoint5.position, firePoint5.rotation); // instantiate the arrows
     }
-    void FixedUpdate()
-    {
-
-        if (Random.value < chanceDirectionChange)
-        {  // change direction at a random interval
-            speed *= -1;
-        }
-
-    }
+    
 }

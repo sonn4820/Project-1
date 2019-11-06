@@ -64,6 +64,11 @@
   <ItemGroup>
     <Compile Include="Assets\Background &amp; UI\Change.cs" />
     <Compile Include="Assets\Script\Enemy\Bag\Bag.cs" />
+    <Compile Include="Assets\Script\Enemy\Lighter\Move1.cs" />
+    <Compile Include="Assets\Script\Enemy\Lighter\Move2.cs" />
+    <Compile Include="Assets\Script\Enemy\Lighter\Move2Fast.cs" />
+    <Compile Include="Assets\Script\Enemy\SprayBottle\Water.cs" />
+    <Compile Include="Assets\Script\Enemy\SprayBottle\Water2.cs" />
     <Compile Include="Assets\Script\Enemy\Truck\Bullet.cs" />
     <Compile Include="Assets\Script\Enemy\Truck\Truck.cs" />
     <Compile Include="Assets\Script\Player\Camera.cs" />

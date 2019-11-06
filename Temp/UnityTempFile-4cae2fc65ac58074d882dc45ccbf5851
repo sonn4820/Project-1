@@ -287,6 +287,12 @@
 /define:CSHARP_7_3_OR_NEWER
 "Assets\Background & UI\Change.cs"
 Assets\Script\Enemy\Bag\Bag.cs
+Assets\Script\Enemy\Lighter\Move1.cs
+Assets\Script\Enemy\Lighter\Move2.cs
+Assets\Script\Enemy\Lighter\Move2Fast.cs
+Assets\Script\Enemy\SprayBottle\Water.cs
+Assets\Script\Enemy\SprayBottle\Water2.cs
+Assets\Script\Enemy\Truck\Bullet.cs
 Assets\Script\Enemy\Truck\Truck.cs
 Assets\Script\Player\Camera.cs
 Assets\Script\Player\Moving.cs

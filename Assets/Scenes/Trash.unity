@@ -1827,7 +1827,7 @@ GameObject:
   - component: {fileID: 1252804460}
   m_Layer: 0
   m_Name: Floor (4)
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3345,7 +3345,7 @@ GameObject:
   - component: {fileID: 1588228412}
   m_Layer: 0
   m_Name: Boss Room Ceiling
-  m_TagString: Untagged
+  m_TagString: wall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3743,7 +3743,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659904353}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -37.74, y: 40.72, z: 0}
+  m_LocalPosition: {x: -39.69, y: 39.68, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 631659778}
@@ -3788,6 +3788,7 @@ MonoBehaviour:
   orbPrefab: {fileID: 4689825678297371035, guid: 36a96d5afe452424d85a6fd4db04401a,
     type: 3}
   health: 10
+  speed: 4
   animator: {fileID: 1659904356}
   delay: 0
   firePoint1: {fileID: 631659778}
