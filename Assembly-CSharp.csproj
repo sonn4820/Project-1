@@ -68,6 +68,10 @@
     <Compile Include="Assets\Script\Player\Trash\Hit.cs" />
     <Compile Include="Assets\Script\Player\Trash\Hit2.cs" />
     <Compile Include="Assets\Script\Title\Button.cs" />
+    <Compile Include="Assets\Script\Title\PaperButton.cs" />
+    <Compile Include="Assets\Script\Title\PoopButton.cs" />
+    <Compile Include="Assets\Script\Title\ReturnToTitle.cs" />
+    <Compile Include="Assets\Script\Title\TrashButton.cs" />
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>C:/Users/sonng/Documents/QU/GDD 210/Project 1/Project1/Project1/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
