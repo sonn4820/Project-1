@@ -57,7 +57,7 @@ public class Truck : MonoBehaviour
     }
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "wall")
+        if (collision.gameObject.tag == "wall")
         {
             speed = -Mathf.Abs(speed);  // if the enemy pos x is greater than 0.75 reverse speed
         }
@@ -91,3 +91,4 @@ public class Truck : MonoBehaviour
         }
 
     }
+}
