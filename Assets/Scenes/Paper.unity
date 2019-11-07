@@ -791,9 +791,10 @@ GameObject:
   - component: {fileID: 327966923}
   - component: {fileID: 327966922}
   - component: {fileID: 327966921}
+  - component: {fileID: 327966924}
   m_Layer: 0
   m_Name: Lighter
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -940,6 +941,18 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &327966924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 327966917}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &370729196
 GameObject:
   m_ObjectHideFlags: 0
@@ -954,9 +967,10 @@ GameObject:
   - component: {fileID: 370729200}
   - component: {fileID: 370729199}
   - component: {fileID: 370729198}
+  - component: {fileID: 370729203}
   m_Layer: 0
   m_Name: Lighter (3)
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1103,6 +1117,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &370729203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 370729196}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &376072562
 GameObject:
   m_ObjectHideFlags: 0
@@ -1117,9 +1143,10 @@ GameObject:
   - component: {fileID: 376072566}
   - component: {fileID: 376072565}
   - component: {fileID: 376072564}
+  - component: {fileID: 376072569}
   m_Layer: 0
   m_Name: Lighter (5)
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1266,6 +1293,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &376072569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 376072562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &409295774
 GameObject:
   m_ObjectHideFlags: 0
@@ -1315,9 +1354,10 @@ GameObject:
   - component: {fileID: 424511773}
   - component: {fileID: 424511772}
   - component: {fileID: 424511771}
+  - component: {fileID: 424511775}
   m_Layer: 0
   m_Name: Spray Bottle (1)
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1452,6 +1492,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &424511775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 424511769}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &437292297
 GameObject:
   m_ObjectHideFlags: 0
@@ -1855,9 +1907,10 @@ GameObject:
   - component: {fileID: 685073677}
   - component: {fileID: 685073676}
   - component: {fileID: 685073675}
+  - component: {fileID: 685073680}
   m_Layer: 0
   m_Name: Lighter (1)
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2004,6 +2057,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &685073680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 685073673}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &688627200
 GameObject:
   m_ObjectHideFlags: 0
@@ -2018,9 +2083,10 @@ GameObject:
   - component: {fileID: 688627204}
   - component: {fileID: 688627203}
   - component: {fileID: 688627202}
+  - component: {fileID: 688627207}
   m_Layer: 0
   m_Name: Lighter
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2167,6 +2233,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &688627207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 688627200}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &734340613
 GameObject:
   m_ObjectHideFlags: 0
@@ -2181,9 +2259,10 @@ GameObject:
   - component: {fileID: 734340617}
   - component: {fileID: 734340616}
   - component: {fileID: 734340615}
+  - component: {fileID: 734340620}
   m_Layer: 0
   m_Name: Lighter (1)
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2330,6 +2409,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &734340620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 734340613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &862590844
 GameObject:
   m_ObjectHideFlags: 0
@@ -2883,9 +2974,10 @@ GameObject:
   - component: {fileID: 1059596489}
   - component: {fileID: 1059596488}
   - component: {fileID: 1059596487}
+  - component: {fileID: 1059596492}
   m_Layer: 0
   m_Name: Lighter (4)
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3032,6 +3124,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1059596492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1059596485}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1089028199
 GameObject:
   m_ObjectHideFlags: 0
@@ -3447,9 +3551,10 @@ GameObject:
   - component: {fileID: 1355579816}
   - component: {fileID: 1355579818}
   - component: {fileID: 1355579817}
+  - component: {fileID: 1355579819}
   m_Layer: 0
   m_Name: Spray Bottle
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3584,6 +3689,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.16, y: 1.88}
   m_EdgeRadius: 0
+--- !u!114 &1355579819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1355579813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1400636824
 GameObject:
   m_ObjectHideFlags: 0
@@ -4299,9 +4416,10 @@ GameObject:
   - component: {fileID: 1911993469}
   - component: {fileID: 1911993468}
   - component: {fileID: 1911993467}
+  - component: {fileID: 1911993472}
   m_Layer: 0
   m_Name: Lighter (2)
-  m_TagString: hit
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4448,6 +4566,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1911993472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1911993465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 45153d6c574b0c545be8879a72c5f67c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1979114424
 GameObject:
   m_ObjectHideFlags: 0
