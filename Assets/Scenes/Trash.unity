@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 9245463}
   m_Layer: 0
   m_Name: Bag (2)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -382,7 +382,7 @@ GameObject:
   - component: {fileID: 211620165}
   m_Layer: 0
   m_Name: Bag (3)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -558,7 +558,7 @@ GameObject:
   - component: {fileID: 294668945}
   m_Layer: 0
   m_Name: Broom (1)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1297,7 +1297,7 @@ GameObject:
   - component: {fileID: 381250931}
   m_Layer: 0
   m_Name: Bag (1)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1731,7 +1731,7 @@ GameObject:
   - component: {fileID: 471591952}
   m_Layer: 0
   m_Name: Bag (4)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2342,7 +2342,7 @@ GameObject:
   - component: {fileID: 627936540}
   m_Layer: 0
   m_Name: BroomSticks
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2781,7 +2781,7 @@ GameObject:
   - component: {fileID: 834751664}
   m_Layer: 0
   m_Name: Bag (6)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3397,7 +3397,7 @@ GameObject:
   - component: {fileID: 1040555124}
   m_Layer: 0
   m_Name: Broom (3)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3572,7 +3572,7 @@ GameObject:
   - component: {fileID: 1058428954}
   m_Layer: 0
   m_Name: Bag (8)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4121,7 +4121,7 @@ GameObject:
   - component: {fileID: 1254828409}
   m_Layer: 0
   m_Name: Broom
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4425,7 +4425,7 @@ GameObject:
   - component: {fileID: 1284606017}
   m_Layer: 0
   m_Name: Bag (9)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4589,7 +4589,7 @@ GameObject:
   - component: {fileID: 1315351966}
   m_Layer: 0
   m_Name: Bag (11)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4894,7 +4894,7 @@ GameObject:
   - component: {fileID: 1335734051}
   m_Layer: 0
   m_Name: Broom (2)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5070,7 +5070,7 @@ GameObject:
   - component: {fileID: 1359437367}
   m_Layer: 0
   m_Name: Broom (6)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5809,7 +5809,7 @@ GameObject:
   - component: {fileID: 1435301676}
   m_Layer: 0
   m_Name: Bag
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7080,7 +7080,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   orbPrefab: {fileID: 4689825678297371035, guid: 36a96d5afe452424d85a6fd4db04401a,
     type: 3}
-  health: 10
+  HP: 10
   speed: 4
   animator: {fileID: 1659904356}
   delay: 0
@@ -7102,7 +7102,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.029625237, y: -0.108626604}
+  m_Offset: {x: 0.024164468, y: -0.42257845}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -7113,7 +7113,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.4667474, y: 1.4887428}
+  m_Size: {x: 1.510427, y: 0.21655774}
   m_EdgeRadius: 0
 --- !u!50 &1659904359
 Rigidbody2D:
@@ -7123,7 +7123,7 @@ Rigidbody2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1659904353}
-  m_BodyType: 0
+  m_BodyType: 1
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
@@ -7153,7 +7153,7 @@ GameObject:
   - component: {fileID: 1686748802}
   m_Layer: 0
   m_Name: Bag (12)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7856,6 +7856,7 @@ GameObject:
   - component: {fileID: 1867172960}
   - component: {fileID: 1867172959}
   - component: {fileID: 1867172958}
+  - component: {fileID: 1867172966}
   - component: {fileID: 1867172964}
   - component: {fileID: 1867172965}
   m_Layer: 0
@@ -8029,7 +8030,6 @@ MonoBehaviour:
   hitPrefab: {fileID: 5269412546985930412, guid: fed78500395dbd541b0e3fb9d9c0f1c9,
     type: 3}
   hit: {fileID: 0}
-  timeBetweenShots: 0.6
 --- !u!114 &1867172965
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8046,7 +8046,18 @@ MonoBehaviour:
   hitPrefab: {fileID: 5269412546985930412, guid: fed78500395dbd541b0e3fb9d9c0f1c9,
     type: 3}
   hit: {fileID: 0}
-  timeBetweenShots: 0.6
+--- !u!114 &1867172966
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867172957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dcaecd2c70565644eba7a94d73fa7dda, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1893553063
 GameObject:
   m_ObjectHideFlags: 0
@@ -8058,7 +8069,7 @@ GameObject:
   - component: {fileID: 1893553064}
   m_Layer: 0
   m_Name: TrashBags
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8106,7 +8117,7 @@ GameObject:
   - component: {fileID: 1932678487}
   m_Layer: 0
   m_Name: Bag (7)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8269,7 +8280,7 @@ GameObject:
   - component: {fileID: 1948588026}
   m_Layer: 0
   m_Name: Bag (5)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8767,7 +8778,7 @@ GameObject:
   - component: {fileID: 2018445030}
   m_Layer: 0
   m_Name: Bag (10)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8931,7 +8942,7 @@ GameObject:
   - component: {fileID: 2021084631}
   m_Layer: 0
   m_Name: Broom (5)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9412,7 +9423,7 @@ GameObject:
   - component: {fileID: 2139903343}
   m_Layer: 0
   m_Name: Broom (4)
-  m_TagString: Untagged
+  m_TagString: enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

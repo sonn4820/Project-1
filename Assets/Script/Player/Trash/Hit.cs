@@ -7,7 +7,7 @@ public class Hit : MonoBehaviour
     public Transform firePoint; // create fire point for prefab
     public GameObject hitPrefab;  // place to drop prefab
     public AudioSource hit; // place for drop audio
-    public float timeBetweenShots = 0.6f;  // time between each shot
+    private float timeBetweenShots = 0.8f;  // time between each shot
     private float delaytime; // call delay time
     
 

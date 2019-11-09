@@ -7,7 +7,7 @@ public class Truck : MonoBehaviour
     public GameObject orbPrefab; // var to hold prefab for instantiating orbs
 
     private float secsBetweenLaunch = 0.65f; // rate that we generate orbs from the enemy
-    public float health = 10f; // initialize hp = 2
+    public float HP = 10f; // initialize HP 
     public float speed = 4f; // set up speed of enemy
     public Animator animator;// get animator
     public float delay = 0f; // delay time of death
@@ -37,11 +37,12 @@ public class Truck : MonoBehaviour
     void Update()
     {
         orbPrefab.gameObject.SetActive(true); // when appear, active to orb
+        animator.SetFloat("HP", HP);
 
-        
-        if (health <= 0f) // hp < 0
+ 
+        if (HP <= 0f) // hp < 0
         {
-            animator.SetFloat("HP", health); //load death animation
+            animator.SetFloat("HP", HP); //load death animation
             Destroy(gameObject, this.GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length + delay); //destroy gameobject after the delay
             CancelInvoke("LaunchOrb1"); // cancel the invoke
             CancelInvoke("LaunchOrb2"); // cancel the invoke
@@ -56,6 +57,10 @@ public class Truck : MonoBehaviour
         if (collision.gameObject.tag == "wall")
         {
             speed = -Mathf.Abs(speed);  // if the enemy pos x is greater than 0.75 reverse speed
+        }
+        if (HP >= 1f && collision.gameObject.tag == "hit")
+        {
+            HP -= 1f;
         }
     }
     void LaunchOrb1()
