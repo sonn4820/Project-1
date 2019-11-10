@@ -19,7 +19,7 @@ public class Health : MonoBehaviour
         {
             SceneManager.LoadScene("Lose");
         }
-        Debug.Log(HP);
+        Debug.Log("Player HP: " + HP);
     }
     void OnCollisionEnter2D(Collision2D collision)
     {

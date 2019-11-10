@@ -23,4 +23,5 @@ public class P4 : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
 }

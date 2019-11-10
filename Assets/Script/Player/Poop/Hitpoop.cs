@@ -34,6 +34,7 @@ public class Hitpoop : MonoBehaviour
             LaunchPoop4(); // activate the shoot function
             delaytime = Time.time + timeBetweenShots; // delay time = timebtwshots
         }
+
     }
     void LaunchPoop1()
     {
