@@ -6,10 +6,12 @@ using UnityEngine.SceneManagement;
 public class Health : MonoBehaviour
 {
     private float HP = 3f; // initialize HP 
+    public AudioSource Ouch;
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        Ouch = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -27,6 +29,7 @@ public class Health : MonoBehaviour
         if (collision.gameObject.tag == "enemy")
         {
             HP -= 1f;
+            Ouch.Play();
         }
     }
 }
