@@ -6,7 +6,7 @@ public class Hit : MonoBehaviour
 {
     public Transform firePoint; // create fire point for prefab
     public GameObject hitPrefab;  // place to drop prefab
-    public AudioSource hit; // place for drop audio
+    //public AudioSource hit; // place for drop audio  The audio messes with the death sound
     private float timeBetweenShots = 0.8f;  // time between each shot
     private float delaytime; // call delay time
     
@@ -14,7 +14,7 @@ public class Hit : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        hit = GetComponent<AudioSource>(); // get the audio source 
+        //hit = GetComponent<AudioSource>(); // get the audio source 
     }
 
     // Update is called once per frame
@@ -32,6 +32,6 @@ public class Hit : MonoBehaviour
     {
         Instantiate(hitPrefab, firePoint.position, firePoint.rotation); // instantiate the arrows
 
-        hit.Play(); // play the audios
+        //hit.Play(); // play the audios
     }
 }
