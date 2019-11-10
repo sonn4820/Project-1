@@ -18,7 +18,7 @@ public class Truck : MonoBehaviour
     public Transform firePoint4; // create fire point for prefab
     public Transform firePoint5; // create fire point for prefab
 
-    float chanceDirectionChange = 0.04f; // how likely ship will change direction
+   
 
     // Start is called before the first frame update
     void Start()
