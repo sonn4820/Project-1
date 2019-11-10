@@ -7,7 +7,7 @@ public class plane : MonoBehaviour
     public Transform firePoint; // create fire point for prefab
     public GameObject hitPrefab;  // place to drop prefab
     public AudioSource hit; // place for drop audio
-    private float timeBetweenShots = 0.8f;  // time between each shot
+    private float timeBetweenShots = 1f;  // time between each shot
     private float delaytime; // call delay time
 
 
@@ -23,17 +23,16 @@ public class plane : MonoBehaviour
     {
         if (Time.time >= delaytime && (Input.GetKeyDown(KeyCode.K))) // Use J to shoot
         {
-            boom(); // activate the shoot function
+            boom1(); // activate the shoot function
             delaytime = Time.time + timeBetweenShots; // delay time = timebtwshots
         }
 
 
     }
-    void boom() // shoot function
+    void boom1() // shoot function
     {
         Instantiate(hitPrefab, firePoint.position, firePoint.rotation); // instantiate the arrows
 
-        hit.Play(); // play the audios
     }
 }
 

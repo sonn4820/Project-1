@@ -79,9 +79,11 @@
     <Compile Include="Assets\Script\Player\Camera.cs" />
     <Compile Include="Assets\Script\Player\Health.cs" />
     <Compile Include="Assets\Script\Player\Moving.cs" />
+    <Compile Include="Assets\Script\Player\Paper\AD3.cs" />
     <Compile Include="Assets\Script\Player\Paper\plane.cs" />
     <Compile Include="Assets\Script\Player\Paper\plane2.cs" />
     <Compile Include="Assets\Script\Player\Paper\planebullet.cs" />
+    <Compile Include="Assets\Script\Player\Paper\planebullet2.cs" />
     <Compile Include="Assets\Script\Player\Poop\Hitpoop.cs" />
     <Compile Include="Assets\Script\Player\Poop\P1.cs" />
     <Compile Include="Assets\Script\Player\Poop\P2.cs" />
