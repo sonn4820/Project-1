@@ -11,7 +11,7 @@ public class Person : MonoBehaviour
 
     private float secsBetweenLaunch = 0.9f; // rate that we generate orbs from the enemy
     public float HP = 10f; // initialize HP 
-    public float speed = 10f; // set up speed of enemy
+    private float speed = 4f; // set up speed of enemy
     public Animator animator;// get animator
     public float delay = 0f; // delay time of death
 

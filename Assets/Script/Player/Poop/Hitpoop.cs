@@ -34,6 +34,14 @@ public class Hitpoop : MonoBehaviour
             LaunchPoop4(); // activate the shoot function
             delaytime = Time.time + timeBetweenShots; // delay time = timebtwshots
         }
+        if (Time.time >= delaytime && (Input.GetKeyDown(KeyCode.K))) // Use J to shoot
+        {
+            LaunchPoop1(); // activate the shoot function
+            LaunchPoop2(); // activate the shoot function
+            LaunchPoop3(); // activate the shoot function
+            LaunchPoop4(); // activate the shoot function
+            delaytime = Time.time + timeBetweenShots; // delay time = timebtwshots
+        }
 
     }
     void LaunchPoop1()

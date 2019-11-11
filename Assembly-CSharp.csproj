@@ -95,6 +95,9 @@
     <Compile Include="Assets\Script\Player\Poop\P4.cs" />
     <Compile Include="Assets\Script\Player\Trash\Hit.cs" />
     <Compile Include="Assets\Script\Player\Trash\Hit2.cs" />
+    <Compile Include="Assets\Script\Reward\ActiveReward.cs" />
+    <Compile Include="Assets\Script\Reward\BackToMainMenu.cs" />
+    <Compile Include="Assets\Script\Reward\Reward.cs" />
     <Compile Include="Assets\Script\Title\Button.cs" />
     <Compile Include="Assets\Script\Title\PaperButton.cs" />
     <Compile Include="Assets\Script\Title\PoopButton.cs" />

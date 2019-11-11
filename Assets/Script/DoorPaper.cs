@@ -23,7 +23,8 @@ public class DoorPaper : MonoBehaviour
         if (water1 == null )
         {
             door1.gameObject.SetActive(false);
-        } else if (water2 == null)
+        } 
+    if (water2 == null)
         {
             door2.gameObject.SetActive(false);
         }
