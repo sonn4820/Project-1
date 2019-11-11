@@ -12,18 +12,21 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: bec73067590f77f458ca64ff326d3f2f
   - enabled: 1
-    path: Assets/Scenes/Trash.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    path: Assets/Scenes/Paper.unity
+    guid: 97a842c4b34c1394ab8ea4ae224c7874
   - enabled: 1
     path: Assets/Scenes/Poop.unity
     guid: 947984f449ef3974fb466590d4fd6935
   - enabled: 1
-    path: Assets/Scenes/Paper.unity
-    guid: 97a842c4b34c1394ab8ea4ae224c7874
+    path: Assets/Scenes/Trash.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Win.unity
     guid: dd01494898c1cc647becd9b0660304d5
   - enabled: 1
     path: Assets/Scenes/Lose.unity
     guid: 46ea7f4b86003cd428ceb0d8e1403a48
+  - enabled: 1
+    path: Assets/Scenes/Credit.unity
+    guid: cb725de99a0e9ca4d8270e0496bfc0f8
   m_configObjects: {}
